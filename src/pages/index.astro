@@ -1,0 +1,20 @@
+---
+import LocalButton from '../components/Button.vue';
+import LibraryButton from 'primevue/button';
+
+import 'primevue/resources/themes/aura-light-blue/theme.css';
+---
+
+<html lang='en'>
+    <head>
+        <meta charset='utf-8' />
+        <link rel='icon' type='image/svg+xml' href='/favicon.svg' />
+        <meta name='viewport' content='width=device-width' />
+        <meta name='generator' content={Astro.generator} />
+        <title>Astro</title>
+    </head>
+    <body>
+        <LocalButton link>Local button component</LocalButton>
+        <LibraryButton link>Library button component</LibraryButton>
+    </body>
+</html>
